@@ -6,6 +6,33 @@
   </head>
   <body>
 
+    <h1><s>Pokemon Go</s><br>Pokemon Fight!</h1>
+
+    <ol>
+      <li>Ingresa el nombre de 2 o más Pokemones.</li>
+      <li>Especifica su color.</li>
+      <li>Define su poder de ataque.</li>
+      <li>Ponlos a pelear</li>
+    </ol>
+
+    <table>
+      <tr>
+        <td><input type="text" id="nombrePokemon" placeholder="Nombre" ></td>
+        <td><input type="text" id="colorPokemon" placeholder="Color" ></td>
+        <td><input type="text" id="nivelAtaquePokemon" placeholder="Poder de Ataque" ></td>
+      </tr>
+      <tr>
+        <td><button id="crearPokemon" onclick="crearPokemon()" > Añadir </button></td>
+      </tr>
+      <tr>
+        <td><section id="selectorPokemon1" >  </section></td>
+        <td><section id="selectorPokemon2" >  </section></td>
+      </tr>
+      <tr>
+        <td><button id="peleaPokemones" > Fight! </button></td>
+      </tr>
+    </table>
+
     <script src="assets/js/main.js" ></script>
   </body>
 </html>
